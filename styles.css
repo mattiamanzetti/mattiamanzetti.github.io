@@ -67,7 +67,7 @@ ul li {
 }
 
 a {
-    color: inherit; /* Makes the links use the same color as normal text */
+    color: #333; /* Makes the links use the same color as normal text */
     text-decoration: none;
     font-weight: bold;
 }
