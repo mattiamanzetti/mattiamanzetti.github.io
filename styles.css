@@ -18,15 +18,27 @@ body {
     padding: 50px 20px;
 }
 
-/* Main content container */
+/* Two-column layout */
 .container {
+    display: flex;
+    justify-content: space-between;
     width: 80%;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 40px auto;
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Column (About Me & Contacts) */
+.left-column {
+    width: 45%;
+}
+
+/* Right Column (Exams & Works) */
+.right-column {
+    width: 45%;
 }
 
 /* Headings */
