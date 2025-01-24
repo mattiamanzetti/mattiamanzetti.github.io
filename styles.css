@@ -1,58 +1,31 @@
-/* General styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
     color: #333;
 }
 
-/* Header */
 h1 {
+    color: #2c3e50;
     text-align: center;
-    background-color: #007bff;
-    color: white;
     padding: 20px;
-    margin: 0;
 }
 
-/* Section titles */
-h2 {
-    color: #007bff;
-    margin-left: 20px;
-}
-
-/* List styles */
 ul {
-    list-style: none;
-    padding-left: 20px;
+    list-style-type: none;
+    text-align: center;
 }
 
-/* Links */
+ul li {
+    margin: 10px;
+}
+
 a {
-    color: #007bff;
+    color: #3498db;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Contact section */
-.contacts {
-    background: white;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Exams, Publications, Interests sections */
-.exams, .publications, .interests {
-    background: white;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
