@@ -1,24 +1,31 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px; /* Adds some space around the content */
+    padding: 0;
     background-color: #f0f0f0; /* Light gray background */
-    color: #333; /* Dark gray text for contrast */
+    color: #333;
 }
 
-h1 {
-    color: #222; /* Slightly darker text for better readability */
+/* Centered section with a gray background */
+.centered-content {
+    text-align: center;
+    background-color: #d9d9d9; /* Slightly darker gray background */
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/* Left-aligned section */
+.content {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
     text-align: left;
-    padding-bottom: 10px;
 }
 
-p, ul {
-    margin-left: 20px; /* Adds left spacing for better alignment */
-}
-
+/* Style for the list */
 ul {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 0;
 }
 
 ul li {
@@ -26,7 +33,7 @@ ul li {
 }
 
 a {
-    color: #333; /* Neutral link color */
+    color: #333;
     text-decoration: none;
 }
 
