@@ -67,7 +67,7 @@ ul li {
 }
 
 a {
-    color: #0077b5; /* LinkedIn blue for consistency */
+    color: inherit; /* Makes the links use the same color as normal text */
     text-decoration: none;
     font-weight: bold;
 }
