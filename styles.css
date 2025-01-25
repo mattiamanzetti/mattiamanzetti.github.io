@@ -75,3 +75,31 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* ----- RESPONSIVE DESIGN ----- */
+
+/* Apply styles when screen width is 768px or smaller (typical mobile size) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+        width: 90%;
+        padding: 15px;
+    }
+
+    .left-column, 
+    .right-column {
+        width: 100%; /* Take full width */
+    }
+
+    h1 {
+        font-size: 24px; /* Slightly smaller */
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 30px 15px;
+    }
+}
