@@ -69,7 +69,7 @@ ul li {
 a {
     color: #333; /* Makes the links use the same color as normal text */
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 a:hover {
