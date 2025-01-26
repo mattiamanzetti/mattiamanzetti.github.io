@@ -5,63 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mattia Manzetti</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="logos.css">
 </head>
 <body>
 
-    <!-- Centered Section with Gray Background -->
+    <!-- Navigation Menu (Index) -->
+    <div class="nav">
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#exams">University Exams</a></li>
+            <li><a href="#works">My Works</a></li>
+        </ul>
+    </div>
+
+    <!-- Centered Header -->
     <div class="header">
         <h1>Mattia Manzetti</h1>
         <p>Welcome to my personal webpage</p>
     </div>
 
-    <!-- Two-Column Layout -->
+    <!-- Two-Column Layout for Main Content -->
     <div class="container">
         <!-- Left Column -->
         <div class="left-column">
             <!-- About Me Section -->
-            <div class="section-box">
+            <div class="section-box" id="about-me">
                 <h2>About Me</h2>
                 <p>I study Artificial Intelligence at the Universities of Pavia, Milan and Milan-Bicocca. I am a passionate developer and learner.</p>
             </div>
 
-            <!-- Logos -->
-            <iframe src="logos.html" width="100%" height="400" style="border: none;"></iframe> 
-
-            <!-- Connect with Me Section -->
-            <div class="section-box">
-                <h2>Connect with Me</h2>
-                <ul>
-                    <li><a href="https://github.com/mattiamanzetti" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="mailto:mattia.manzetti01@universitadipavia.it" target="_blank" rel="noopener noreferrer">Email (University of Pavia)</a></li>
-                    <li><a href="mailto:mattia.manzetti@studenti.unimi.it" target="_blank" rel="noopener noreferrer">Email (University of Milan)</a></li>
-                    <li><a href="mailto:m.manzetti@campus.unimib.it" target="_blank" rel="noopener noreferrer">Email (University of Milan-Bicocca)</a></li>
-                    <li><a href="https://www.linkedin.com/in/mattia-manzetti" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                </ul>
+            <!-- Logos Section -->
+            <div class="logos-section">
+                <div class="logos-left">
+                    <img src="https://bai.unipv.it/wp-content/uploads/2021/03/Logo-OkAI-BachelorScienceArtificiaIInelligence.jpg" alt="AI Course Logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIDNUmEeb4EnzmJY7mH6aDbVf2faEm992s5w&s" alt="University of Milan Logo">
+                </div>
+                <div class="logos-right">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Unimi-logo.png" alt="University of Milan Logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Milano-Bicocca_University_logo.svg/1200px-Milano-Bicocca_University_logo.svg.png" alt="University of Milan-Bicocca Logo">
+                </div>
             </div>
-        </div>
 
-        <!-- Right Column -->
-        <div class="right-column">
             <!-- University Exams Section -->
-            <div class="section-box">
+            <div class="section-box" id="exams">
                 <h2>University Exams</h2>
                 <ul>
                     <li>Experimental Physics for AI</li>
                     <li>Computational Logic</li>
-                    <li> </li>
-                    <!-- Add more exams here -->
                 </ul>
             </div>
 
             <!-- My Works Section -->
-            <div class="section-box">
+            <div class="section-box" id="works">
                 <h2>My Works</h2>
                 <ul>
                     <li><a href="SoundWaves.pdf" target="_blank" rel="noopener noreferrer">Exploring the Physics of Sound Waves</a></li>
-                    <!-- Add more projects here -->
                 </ul>
             </div>
+        </div>
+    </div>
+
+    <!-- Footer: Connect with Me Section -->
+    <div class="footer">
+        <div class="section-box">
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><a href="https://github.com/mattiamanzetti" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="mailto:mattia.manzetti01@universitadipavia.it" target="_blank" rel="noopener noreferrer">Email (University of Pavia)</a></li>
+                <li><a href="mailto:mattia.manzetti@studenti.unimi.it" target="_blank" rel="noopener noreferrer">Email (University of Milan)</a></li>
+                <li><a href="mailto:m.manzetti@campus.unimib.it" target="_blank" rel="noopener noreferrer">Email (University of Milan-Bicocca)</a></li>
+                <li><a href="https://www.linkedin.com/in/mattia-manzetti" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
         </div>
     </div>
 
