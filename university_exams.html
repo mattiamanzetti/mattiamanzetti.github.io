@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattia Manzetti - University Exams</title>
+
+    <style>
+        /* Reset default margins and padding for consistency */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header section at the top */
+        .header {
+            background-color: #d9d9d9; /* Light gray */
+            text-align: center;
+            padding: 30px 20px; /* Spacing around content */
+        }
+
+        /* Sidebar menu */
+        .menu {
+            width: 200px; /* Fixed width */
+            position: fixed; /* Stays in place while scrolling */
+            top: 136px; /* Positioned below the header */
+            left: 0; /* Aligned to the left */
+            background-color: #222; /* Dark background */
+            padding: 20px; /* Spacing inside the menu */
+            border-radius: 0px; /* Removes rounded corners */
+            height: calc(100vh - 170px); /* Takes up full height minus header/footer */
+        }
+
+        /* Style for menu list items */
+        .menu ul {
+            list-style: none; /* Removes default bullet points */
+            padding: 0;
+        }
+
+        /* Style for menu links */
+        .menu ul li a {
+            color: #fff; /* White text */
+            text-decoration: underline; /* Removes underline */
+            font-weight: bold;
+            display: block; /* Makes the entire area clickable */
+            padding: 10px 0; /* Spacing between items */
+        }
+
+        /* Main content area */
+        .main-content {
+            margin-left: 240px; /* Pushes content to the right of the menu */
+            padding-top: 20px; /* Spacing inside the content area */
+            padding-left: 20px; /* Spacing inside the content area */
+        }
+
+        .main-content ul li {
+            margin-left: 40px; /* Adjust the value to move the list items more to the right */
+        }
+
+        .main-content ul {
+            list-style: disc;  /* Ensures bullets are shown */
+            padding-left: 0; /* Adjusts indentation */
+        }
+
+        .main-content p {
+            font-family: Arial, sans-serif; /* Keeps the font consistent */
+            font-size: 16px; /* Adjust the font size if needed */
+        }
+
+        /* Footer section at the bottom */
+        .footer {
+            background-color: #d9d9d9; /* Light gray */
+            padding: 20px;
+            text-align: center;
+            position: fixed; /* Stays at the bottom */
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Style for all links */
+        a {
+            color: #333; /* Dark gray color to match the text color of the paragraph */
+            text-decoration: underline;
+        }
+
+        /* Style for links when clicked (active state) */
+        a:active {
+            color: #333; /* Keep the same color when clicked */
+        }
+
+        /* Style for links when hovered */
+        a:hover {
+            color: #333; /* Keep the same color when hovered */
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Header section -->
+    <div class="header">
+        <h1>Mattia Manzetti</h1>
+        <p>Welcome to my personal webpage</p>
+    </div>
+
+    <!-- Sidebar menu for navigation -->
+    <div class="menu">
+        <ul>
+            <!-- <li><span style="color: #fff; font-weight: bold; display: block; padding: 10px 0;">About Me</span></li> -->
+            <li><a href="github.html">About Me</a></li>
+            <li><a href="university_exams.html">University Exams</a></li>
+            <li><a href="my_works.html">My Works</a></li>
+        </ul>
+    </div>
+
+    <!-- Main content area -->
+    <div class="main-content">
+        <h2>University Exams</h2>
+        <p>These are the exams that I have taken so far:</p>
+        <ul>
+            <li>Experimental Physics for AI</li>
+            <li>Computational Logic</li>
+        </ul>
+    </div>
+
+
+    <!-- Footer section with links -->
+    <div class="footer">
+        <p>Connect with Me:</p>
+        <a href="https://github.com/mattiamanzetti">GitHub</a> |
+        <a href="mailto:mattia.manzetti01@universitadipavia.it">Email</a> |
+        <a href="https://www.linkedin.com/in/mattia-manzetti">LinkedIn</a>
+    </div>
+
+</body>
+</html>
