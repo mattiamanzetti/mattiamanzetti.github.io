@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset dei margini e padding */
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -6,75 +6,59 @@ body, h1, h2, p, ul {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0; /* Colore di sfondo chiaro */
     color: #333;
     line-height: 1.6;
 }
 
-/* Header styling */
+/* Striscia orizzontale in alto */
 .header {
     background-color: #d9d9d9;
     text-align: center;
     padding: 50px 20px;
 }
 
-/* Navigation menu */
-.nav {
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
+/* Menu laterale */
+.menu {
     width: 200px;
-    padding-top: 20px;
-}
-
-.nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.nav ul li {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Main content container */
-.container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    max-width: 1000px;
-    margin: 40px auto;
-    background: white;
+    position: fixed;
+    top: 120px;
+    left: 20px;
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Left Column (About Me & Contacts) */
-.left-column {
-    width: 75%; /* Taking up more space on the right */
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 15px 0;
+}
+
+.menu ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenuto principale */
+.main-content {
+    margin-left: 240px; /* Distanza per il menu laterale */
+    padding: 20px;
 }
 
 .section-box {
-    margin-bottom: 30px;
-}
-
-/* Headings */
-h1 {
-    font-size: 28px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -82,61 +66,33 @@ h2 {
     margin-top: 20px;
 }
 
-/* List styling */
-ul {
+/* Striscia orizzontale in basso */
+.footer {
+    background-color: #d9d9d9;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .section-box {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer ul {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.footer ul li {
     margin: 10px 0;
 }
 
-a {
-    color: #333; /* Makes the links use the same color as normal text */
+.footer ul li a {
+    color: #333;
     text-decoration: none;
-    font-weight: normal;
 }
 
-a:hover {
+.footer ul li a:hover {
     text-decoration: underline;
-}
-
-/* Footer section */
-.footer {
-    background-color: #d9d9d9;
-    padding: 30px 20px;
-    margin-top: 40px;
-    text-align: center;
-}
-
-/* ----- RESPONSIVE DESIGN ----- */
-
-/* Apply styles when screen width is 768px or smaller (typical mobile size) */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack elements vertically */
-        width: 90%;
-        padding: 15px;
-    }
-
-    .left-column {
-        width: 100%; /* Take full width */
-    }
-
-    h1 {
-        font-size: 24px; /* Slightly smaller */
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    .header {
-        padding: 30px 15px;
-    }
-
-    .footer {
-        padding: 20px 15px;
-    }
 }
