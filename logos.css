@@ -1,0 +1,19 @@
+.logos-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.logos-left, .logos-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos-left img, .logos-right img {
+    width: 100px; /* Adjust the size of the logos */
+    margin: 10px 0;
+}
