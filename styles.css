@@ -18,21 +18,22 @@ body {
     padding: 50px 20px;
 }
 
-/* Menu laterale con striscia verticale più scura */
+/* Menu laterale con colore scuro corretto */
 .menu {
     width: 200px;
     position: fixed;
-    top: 120px;
+    top: 120px; /* Parte subito sotto l'header */
     left: 20px;
-    background-color: #333; /* Colore più scuro per la striscia */
+    background-color: #222; /* Colore scuro */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    height: calc(100vh - 160px); /* Rende il menu alto quanto la pagina, evitando la sezione Connect */
+    height: calc(100vh - 180px); /* Evita che tocchi la striscia in basso */
 }
 
 .menu ul {
     list-style: none;
+    padding: 0;
 }
 
 .menu ul li {
@@ -40,8 +41,9 @@ body {
 }
 
 .menu ul li a {
-    color: #fff; /* Colore bianco per il testo del menu */
+    color: #fff; /* Testo bianco per contrasto */
     text-decoration: none;
+    font-weight: bold;
 }
 
 .menu ul li a:hover {
@@ -50,7 +52,7 @@ body {
 
 /* Contenuto principale */
 .main-content {
-    margin-left: 240px; /* Distanza per il menu laterale */
+    margin-left: 240px; /* Evita sovrapposizioni con il menu laterale */
     padding: 20px;
 }
 
@@ -62,35 +64,26 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    font-size: 22px;
-    margin-top: 20px;
-}
-
 /* Striscia orizzontale in basso */
 .footer {
     background-color: #d9d9d9;
     padding: 20px;
     text-align: center;
-    margin-top: 60px;
-}
-
-.footer .section-box {
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 .footer .footer-links {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .footer .footer-links a {
     color: #333;
     text-decoration: none;
-    margin: 5px 10px;
+    font-weight: bold;
 }
 
 .footer .footer-links a:hover {
