@@ -84,9 +84,7 @@ body {
     color: #333;
     text-decoration: none;
     font-weight: bold;
-}
-
-.image-container {
+}.image-container {
     display: flex;
     justify-content: center; /* Centers images */
     gap: 15px; /* Space between images */
@@ -97,7 +95,7 @@ body {
 .image-container img {
     width: 150px; /* Set a fixed width */
     height: 150px; /* Set a fixed height */
-    object-fit: cover; /* Ensures images maintain aspect ratio and fill the box */
+    object-fit: cover; /* Crops excess but maintains aspect ratio */
     border-radius: 8px; /* Optional: rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
 }
